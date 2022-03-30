@@ -19,3 +19,7 @@
 .quiz-main {
 	margin-top: 5rem;
 }
+
+:root {
+  --light-gray :#f1efef;
+}

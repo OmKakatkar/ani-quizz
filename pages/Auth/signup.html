@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://ani-design.netlify.app/css/main.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="../../css/common.css" />
+		<link rel="stylesheet" href="./auth.css" />
+		<title>Ani Quizz | SignUp</title>
+	</head>
+	<body>
+		<header class="quiz-header">
+			<p class="text-xhuge">Ani Quizz</p>
+			<a href="https://twitter.com/omkakatkar" class="text-huge text-blue"
+				><i class="fab fa-twitter"></i
+			></a>
+		</header>
+		<main class="flex-container quiz-main">
+			<div class="form-container">
+				<form class="flex-container flex-column">
+					<h1 class="text-xhuge form-heading">Sign Up</h1>
+					<div class="input-container" data-error="Invalid email">
+						<label for="email"> Email </label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="email@xyz.com"
+							class="input error text-md"
+						/>
+					</div>
+
+					<!-- Input Password -->
+					<div class="input-container">
+						<label for="password"> Password </label>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							class="input text-md"
+						/>
+					</div>
+					<div class="input-container">
+						<label for="remember" class="checkbox text-xsm">
+							<input
+								type="checkbox"
+								name="remember"
+								id="remember"
+								class="checkbox-input"
+							/>
+							<div class="checkbox-icon"></div>
+							I accept all Terms & Conditions
+						</label>
+					</div>
+					<button type="submit" class="btn rounded bg-blue">
+						Create New Account
+					</button>
+				</form>
+				<div class="text-center">
+					<a href="./login.html" class="form-link">Already have an account</a>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
