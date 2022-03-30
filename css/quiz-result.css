@@ -1,0 +1,20 @@
+.quiz-status-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz-question-container {
+	margin-top: 4rem;
+  width: 40%;
+}
+
+.quiz-question-button-wrapper {
+	margin-top: 2rem;
+}
+
+.quiz-question-button {
+	margin: 1rem;
+	font-size: var(--fs-h3);
+}
