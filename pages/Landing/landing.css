@@ -1,0 +1,19 @@
+.quiz-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	background-color: var(--gray);
+}
+
+.quiz-main {
+	height: calc(100vh - 10rem);
+}
+
+.quiz-hero-container {
+	width: 70rem;
+}
+
+.quiz-hero-button {
+	font-size: 3rem;
+}
