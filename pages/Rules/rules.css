@@ -1,0 +1,18 @@
+.quiz-rules-container {
+	width: 50%;
+	margin: auto;
+	margin-top: 2rem;
+}
+
+.quiz-rule-list-item {
+	width: 100%;
+	justify-content: flex-start;
+}
+
+.quiz-rule-list-item p {
+	margin-left: 1rem;
+}
+
+.quiz-button {
+	font-size: 2.5rem;
+}
