@@ -27,3 +27,8 @@
 	margin-top: 1rem;
 	color: var(--primary-blue);
 }
+
+.quiz-password-reset {
+  min-width: 40rem;
+  background-color: var(--light-gray);
+}
